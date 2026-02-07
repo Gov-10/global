@@ -9,5 +9,6 @@ class State(BaseModel):
     segregator:Optional[str]=None
     verdict:Optional[str]=None
     prob:Optional[float]=0
+    analysis_steps:Optional[List[str]]=None
 
 
